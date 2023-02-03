@@ -9,3 +9,24 @@ Actions
 	- list - To list all tasks
 	- help - To list the help menu
 ```
+
+## Examples:
+#### Input:
+```
+cargo run -- add "make coffee"
+```
+#### output: 
+```
+Todo saved!
+```
+#### Input: 
+```
+cargo run -- list
+```
+#### Output:
+```
+-------------------------------------------------------------
+TASKS LIST
+-------------------------------------------------------------
+[ ] make coffee
+```
